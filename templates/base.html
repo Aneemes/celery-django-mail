@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Background Task with Celery and Redis</title>
+        {% block style %}
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+        {% endblock style %}
+        <script src="{% static 'js/main.js' %}"></script>
+    </head>
+    <body>
+        {% block content %} {% endblock content %}
+        {% include '_partials/footer.html' %}
+        {% block script %} 
+        {% endblock script %}
+    </body>
+</html>
