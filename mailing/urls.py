@@ -2,5 +2,5 @@ from django.urls import path
 from mailing.views import send_email_view
 
 urlpatterns = [
-    path('send-email/', send_email_view, name='send_email'),
+    path('', send_email_view, name='send_email'),
 ]
