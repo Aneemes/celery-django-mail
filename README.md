@@ -72,6 +72,4 @@ Celery should now be running and ready to process background tasks, such as send
 
 You have successfully set up the project and started the Django development server and Celery with Eventlet. The application is now ready to send emails in the background using Celery and Redis.
 
-Remember to refer to the project's documentation for more details on how to use the application and customize it to your specific needs.
-
 Happy coding!
