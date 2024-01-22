@@ -1,5 +1,9 @@
 # Using Celery and Redis with Django to perform background task
 
+## Overview
+
+This project is a basic implementation of celery on django to handle background tasks, in this case, we are sending emails in the background. The project features a simple form that prompts user to input email and an email will be sent to that email address using celery. I've used redis as a broker here, alternatively we could use RabbitMQ.
+
 ## Project Setup and Running Guide
 
 This guide will walk you through the setup and running process for a project that uses Celery and Redis to send emails in the background. Please note that this guide is focused on setting up the project on a Windows machine. Also, its just a demo with a basic implementation
