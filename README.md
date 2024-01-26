@@ -7,7 +7,7 @@ This project is a basic implementation of celery on django to handle background 
 ## Project Setup and Running Guide
 
 This guide will walk you through the setup and running process for a project that uses Celery and Redis to send emails in the background. Please note that this guide is focused on setting up the project on a Windows machine. Also, its just a demo with a basic implementation. 
-If you wish to set this up on your local machine, there is a separate branch [`no-docker`](https://github.com/Aneemes/celery-redis-django/tree/no-docker) with its own [README.md](https://github.com/Aneemes/celery-redis-django/tree/no-dockertab=readme-ov-file#using-celery-and-redis-with-django-to-perform-background-task). 
+If you wish to set this up on your local machine, there is a separate branch [`no-docker`](https://github.com/Aneemes/celery-redis-django/tree/no-docker) with its own [README.md](https://github.com/Aneemes/celery-redis-django/blob/main/README.md). 
 Follow the instructions provided there.
 
 ## Prerequisites
