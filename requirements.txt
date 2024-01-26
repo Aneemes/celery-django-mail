@@ -4,3 +4,8 @@ eventlet==0.35.0
 django-redis==5.4.0
 redis==5.0.1
 python-dotenv==1.0.0
+djangorestframework
+django-filter
+celery[redis]
+psycopg2-binary
+gunicorn==21.2.0
